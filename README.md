@@ -10,6 +10,10 @@ Here you will find the GoF design patterns, which were discussed in the Learning
 - **Strategy:**  used to create an interchangeable family of algorithms from which the required process is chosen at run-time.
 
 ## Structural Patterns
+- **Builder:** used to create complex objects with constituent parts that must be created in the same order or using a specific algorithm. An external class controls the construction algorithm.
+- **Factory method:** used to replace class constructors, abstracting the process of object generation so that the type of the object instantiated can be determined at run-time.
+- **Prototype:** used to instantiate a new object by copying all of the properties of an existing object, creating an independent clone. This practise is particularly useful when the construction of a new object is inefficient.
+- **Singleton:** ensures that only one object of a particular class is ever created. All further references to objects of the singleton class refer to the same underlying instance.
 
 ## Behavioral Patterns
 
