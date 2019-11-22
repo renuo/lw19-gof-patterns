@@ -1,1 +1,18 @@
 # lw19-gof-patterns
+Here you will find the GoF design patterns, which were discussed in the Learning Week 2019, implemented in JavaScript using ES6 classes.
+
+## Behavioral Patterns
+- **Interpreter:** used to define the grammar for instructions that form part of a language or notation, whilst allowing the grammar to be easily extended.
+- **Iterator:** used to provide a standard interface for traversing a collection of items in an aggregate object without the need to understand its underlying structure.
+- **Memento:** used to reduce coupling between classes that communicate with each other. Instead of classes communicating directly, and thus requiring knowledge of their implementation, the classes send messages via a mediator object.
+- **Observer:** used to allow an object to publish changes to its state. Other objects subscribe to be immediately notified of any changes.
+- **State:** used to alter the behaviour of an object as its internal state changes. The pattern allows the class for an object to apparently change at run-time.
+- **Strategy:**  used to create an interchangeable family of algorithms from which the required process is chosen at run-time.
+
+## Structural Patterns
+
+## Behavioral Patterns
+
+## Resources
+- https://github.com/fbeline/design-patterns-JS
+- http://www.blackwasp.co.uk/gofpatterns.aspx
